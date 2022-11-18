@@ -7,7 +7,7 @@ sudo apt remove -y ansible
 
 # Install Python Virtual env (If required)
 sudo apt update
-sudo apt-get install python3-venv
+sudo apt-get install -y python3-venv
 
 # Create Virtual Env (If required)
 rm -rf ~/python_venv
